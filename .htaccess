@@ -1,4 +1,7 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ $1.html [L,QSA]
+
+RewriteRule ^home$ index.html [L,QSA]
+RewriteRule ^contact$ contact.html [L,QSA]
+RewriteRule ^about$ about.html [L,QSA]
+RewriteRule ^pricing$ pricing.html [L,QSA]
+RewriteRule ^how-it-works$ how-it-works.html [L,QSA]
