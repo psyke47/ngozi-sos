@@ -14,3 +14,13 @@ body {
     display: flex;
     align-items: center;
 }
+.hiw-custom-img {
+    max-height: 200px; /* Set your desired maximum height */
+    width: 100%; /* Ensure it fills the width of its container */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+}
+.responsive-img {
+    max-height: 200px; /* Set your desired maximum height */
+    width: 100%; /* Ensure it fills the width of its container */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+}
