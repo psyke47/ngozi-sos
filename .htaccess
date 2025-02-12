@@ -1,7 +1,7 @@
 RewriteEngine On
 
-RewriteRule ^home$ index.html [L,QSA]
-RewriteRule ^contact$ contact.html [L,QSA]
-RewriteRule ^about$ about.html [L,QSA]
-RewriteRule ^pricing$ pricing.html [L,QSA]
-RewriteRule ^how-it-works$ how-it-works.html [L,QSA]
+RewriteRule ^home$ /index.html [L]
+RewriteRule ^contact$ /contact.html [L]
+RewriteRule ^about$ /about.html [L]
+RewriteRule ^pricing$ /pricing.html [L]
+RewriteRule ^how-it-works$ /how-it-works.html [L]
